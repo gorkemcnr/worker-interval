@@ -8,7 +8,7 @@ For that reason, decided to implement a library to avoid throttling on timers.
 
 # Getting Started
 ```
-npm install interval-worker
+npm install worker-interval
 ```
 
 # Example
