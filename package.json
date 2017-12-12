@@ -1,5 +1,5 @@
 {
-  "name": "interval-worker",
+  "name": "worker-interval",
   "version": "1.0.0",
   "description": "setInterval and clearInterval implementation to support keep running on inactive tabs for Chrome, Firefox and IE",
   "main": "build/module.js",
