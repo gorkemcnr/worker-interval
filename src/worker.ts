@@ -20,7 +20,7 @@ onmessage = (event) => {
   switch (intervalWork.name) {
     case "setInterval": {
       intervalWork.name = "runCallback";
-      const intervalId = window.setInterval(() => { postMessage(intervalWork); }, intervalWork.delay);
+      const intervalId = setInterval(() => { postMessage(intervalWork,); }, intervalWork.delay);
       scheduledIntervalWorks.push({
         id: intervalWork.id,
         intervalId,
@@ -30,7 +30,7 @@ onmessage = (event) => {
     case "clearInterval": {
       const workIndex = scheduledIntervalWorks.findIndex(x => x.id === intervalWork.id);
       if (workIndex >= 0) {
-        window.clearInterval(scheduledIntervalWorks[workIndex].intervalId);
+        clearInterval(scheduledIntervalWorks[workIndex].intervalId);
         scheduledIntervalWorks.splice(workIndex);
       }
       break;

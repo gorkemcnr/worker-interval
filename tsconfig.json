@@ -12,15 +12,12 @@
         "moduleResolution": "node",
         "target": "es5",        
         "outDir": "dist",        
-        "lib": [
-            "webworker",
-            "es6",
-            "dom"
+        "lib": [            
+            "es6",       
+            "webworker"            
         ]
     },
-    "files": [
-        "intervalWorker.ts",
-        "module.ts",
-        "worker.ts"
-    ]
+    "include": [
+        "src/*.ts"        
+    ]    
 }
