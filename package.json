@@ -15,9 +15,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gorkemcnr/interval-worker.git"
+    "url": "https://github.com/gorkemcnr/worker-interval.git"
   },
-  "homepage": "https://github.com/gorkemcnr/interval-worker",
+  "homepage": "https://github.com/gorkemcnr/worker-worker",
   "author": "Gorkem Cinar",
   "license": "MIT",
   "devDependencies": {
