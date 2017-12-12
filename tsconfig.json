@@ -3,7 +3,7 @@
         "sourceMap": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "declaration": false,
+        "declaration": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "removeComments": true,
@@ -18,6 +18,6 @@
         ]
     },
     "include": [
-        "src/*.ts"        
+        "src/**/*"        
     ]    
 }
