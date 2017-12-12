@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "removeComments": true,
+        "strictNullChecks": true,        
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",        
+        "outDir": "dist",        
+        "lib": [
+            "webworker",
+            "es6",
+            "dom"
+        ]
+    },
+    "files": [
+        "intervalWorker.ts",
+        "module.ts",
+        "worker.ts"
+    ]
+}

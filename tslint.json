@@ -1,0 +1,21 @@
+{
+    "extends": [
+      "tslint:recommended",
+      "tslint-eslint-rules"      
+    ],
+    "rules": {
+      "no-constant-condition": true,
+      "jsx-curly-spacing": "always",      
+      "member-access": [ true, "check-constructor", "no-public" ],
+      "no-console": [],
+      "jsx-no-lambda": false,
+      "max-line-length": [true, 180],
+      "object-literal-sort-keys": false,
+      "arrow-parens": false,
+      "ordered-imports": false,
+      "interface-name": false,
+      "no-var-requires": { "severity": "warning" },
+      "jsx-self-closing": { "severity": "warning" }
+    }
+  }
+  
