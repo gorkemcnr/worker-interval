@@ -4,6 +4,9 @@
   "description": "setInterval and clearInterval implementation to support keep running on inactive tabs for Chrome, Firefox and IE",
   "main": "dist/module.js",
   "module": "dist/module.js",
+  "scripts": {
+    "install": "gulp"
+  },
   "keywords": [
     "clearInterval",
     "clear interval",
