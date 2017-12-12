@@ -13,12 +13,12 @@ npm install interval-worker
 
 # Example
 ```javascript
-import * as intervalWorker from 'interval-worker';
+import * as workerInterval from 'worker-interval';
 
 // setInterval
-const intervalId = intervalWorker.setInterval(/*function*/, 1000);
+const intervalId = workerInterval.setInterval(/*function*/, 1000);
 
 // clearInterval
-intervalWorker.clearInterval(intervalId);
+workerInterval.clearInterval(intervalId);
 ```
 

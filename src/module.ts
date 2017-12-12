@@ -1,5 +1,5 @@
-import IntervalWorker from "./intervalWorker";
+import WorkerInterval from "./workerInterval";
 
-const intervalWorker = new IntervalWorker();
-export const clearInterval = intervalWorker.clearInterval;
-export const setInterval = intervalWorker.setInterval;
+const workerInterval = new WorkerInterval();
+export const clearInterval = workerInterval.clearInterval;
+export const setInterval = workerInterval.setInterval;

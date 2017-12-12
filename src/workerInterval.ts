@@ -6,7 +6,7 @@ export interface Work {
   callback: () => void;
 }
 
-export default class IntervalWorker {
+export default class WorkerInterval {
   private works: Work[] = [];
   private readonly worker: Worker;
 
