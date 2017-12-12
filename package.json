@@ -5,7 +5,7 @@
   "main": "dist/module.js",
   "module": "dist/module.js",
   "scripts": {
-    "install": "gulp"
+    "install": "tsc"
   },
   "keywords": [
     "clearInterval",

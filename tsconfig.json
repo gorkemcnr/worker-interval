@@ -3,7 +3,7 @@
         "sourceMap": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "declaration": true,
+        "declaration": false,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "removeComments": true,
