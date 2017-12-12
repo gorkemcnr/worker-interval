@@ -1,5 +1,5 @@
 # interval-worker
-SetInterval and ClearInterval implementation with using [Web-Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
+setInterval and clearInterval implementation with using [Web-Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
 to keep up and running on inactive tabs for Chrome, Firefox and IE
 
 # Motivation
