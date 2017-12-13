@@ -20,7 +20,7 @@ onmessage = (event) => {
   switch (intervalWork.name) {
     case "setInterval": {
       intervalWork.name = "runCallback";
-      const intervalId = setInterval(() => { postMessage(intervalWork,); }, intervalWork.delay);
+      const intervalId = setInterval(() => { postMessage(intervalWork); }, intervalWork.delay);
       scheduledIntervalWorks.push({
         id: intervalWork.id,
         intervalId,

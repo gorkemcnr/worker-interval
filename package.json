@@ -1,9 +1,9 @@
 {
   "name": "worker-interval",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "setInterval and clearInterval implementation to support keep running on inactive tabs for Chrome, Firefox and IE",
   "main": "dist/module.js",
-  "types": "dist/module.d.ts",
+  "types": "typings/module.d.ts",
   "keywords": [
     "clearInterval",
     "clear interval",

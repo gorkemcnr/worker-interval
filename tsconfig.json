@@ -4,6 +4,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "declaration": true,
+        "declarationDir": "typings",
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "removeComments": true,
@@ -13,11 +14,11 @@
         "target": "es5",        
         "outDir": "./dist",        
         "lib": [            
-            "es6",       
-            "webworker"            
+            "es6",
+            "webworker" 
         ]
     },
     "include": [
-        "src/**/*"        
+        "src/**/*"      
     ]    
 }
