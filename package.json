@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "setInterval and clearInterval implementation to support keep running on inactive tabs for Chrome, Firefox and IE",
   "main": "dist/module.js",
-  "module": "dist/module.js",
-  "scripts": {
-    "install": "tsc"
-  },
+  "types": "dist/module.d.ts",
   "keywords": [
     "clearInterval",
     "clear interval",
